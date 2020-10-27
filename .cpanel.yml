@@ -2,4 +2,4 @@ deployment:
   tasks:
   - export DEPLOYPATH=/home/festival/public_html/goodlife.pe/dinero-rapido
   - /bin/cp index.html $DEPLOYPATH
-  - /bin/cp 
+  - /bin/cp -R assets $DEPLOYPATH
